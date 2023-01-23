@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4af85e32-5591-4116-b657-8ae6746c08ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/params/OrderParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/OrderStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/config/LoadBalanceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/ProductStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/UserStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/constants/HttpCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/exception/RestCtrlExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/id/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/id/SnowFlakeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/id/SnowFlakeLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/md5/MD5Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/psswd/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/resp/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-utils/src/main/resources/snowflake/snowflake.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/shop-utils/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-Djps.track.ap.dependencies=false" />
+  </component>
+  <component name="ProjectId" id="2KVCGwx2wvs2husDHkvrRPZ2JbG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/workplace/project/example/shop-springcloud-alibaba",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15078124",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "ssh.settings",
+    "spring.configuration.checksum": "5ef2e4e574328ead5958bb9d426c3fbd"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\project\shop-springcloud-alibaba\shop-utils\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.binghe.shop.bean.params" />
+      <recent name="io.binghe.shop.utils.psswd" />
+      <recent name="io.binghe.shop.utils.md5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderStarter">
+    <configuration name="OrderStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.binghe.shop.order.OrderStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.binghe.shop.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.binghe.shop.product.ProductStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.binghe.shop.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.binghe.shop.user.UserStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.binghe.shop.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.binghe.shop.utils.a.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.binghe.shop.utils.a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderStarter" />
+        <item itemvalue="Spring Boot.UserStarter" />
+        <item itemvalue="Spring Boot.ProductStarter" />
+        <item itemvalue="Spring Boot.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af85e32-5591-4116-b657-8ae6746c08ff" name="Changes" comment="" />
+      <created>1674050272414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674050272414</updated>
+      <workItem from="1674050273244" duration="15807000" />
+      <workItem from="1674130144378" duration="2421000" />
+      <workItem from="1674132574870" duration="266000" />
+      <workItem from="1674132852029" duration="37000" />
+      <workItem from="1674133165098" duration="5393000" />
+      <workItem from="1674400232073" duration="672000" />
+      <workItem from="1674441042824" duration="2304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/OrderStarter.java</url>
+          <line>11</line>
+          <properties class="io.binghe.shop.order.OrderStarter" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
