@@ -21,6 +21,23 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @GetMapping(value = "/sleuth/filter/api")
+    public String sleuthFilter(HttpServletRequest request) {
+        Object traceIdObj = request.getAttribute("traceId");
+        String traceId = traceIdObj == null ? "" : traceIdObj.toString();
+        log.info("获取到的traceId为: " + traceId);
+        return "sleuthFilter";
+    }
+
+    @GetMapping(value = "/async/api")
+    public String asyncApi() {
+        log.info("执行异步任务开始...");
+        userService.asyncMethod();
+        log.info("异步任务执行结束...");
+        return "asyncApi";
+    }
+
+
     @GetMapping(value = "/api/filter1")
     public String apiFilter1(HttpServletRequest request, HttpServletResponse response){
         log.info("访问了apiFilter1接口");

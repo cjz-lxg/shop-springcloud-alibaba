@@ -5,6 +5,9 @@ import io.binghe.shop.bean.User;
 
 public interface UserService {
 
+    void asyncMethod();
+
+
     /**
      * 根据id获取用户信息
      */

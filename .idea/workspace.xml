@@ -4,63 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af85e32-5591-4116-b657-8ae6746c08ff" name="Changes" comment="搭建三大微服务完成交互式开发与测试">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom-temp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/GatewayStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/config/GatewayFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/filter/GrayscaleGatewayFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/filter/GrayscaleGatewayFilterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/predicate/NameRoutePredicateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/io/binghe/shop/predicate/NameRoutePredicateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-nacos-simple.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-nacos.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-sentinel.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-simple.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/controller/SentinelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/fallback/ProductServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/fallback/UserServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/fallback/factory/ProductServiceFallBackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/fegin/fallback/factory/UserServiceFallBackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/SentinelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV3Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV4Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV5Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV6Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/SentinelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4af85e32-5591-4116-b657-8ae6746c08ff" name="Changes" comment="SpringCloud Gateway核心技术">
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-pre-filter.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/config/ThreadPoolTaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/filter/MyGenericFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-bean/src/main/java/io/binghe/shop/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/OrderStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/config/LoadBalanceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/config/LoadBalanceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/io/binghe/shop/order/service/impl/OrderServiceV1Impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/ProductStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/ProductStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-product/src/main/java/io/binghe/shop/product/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/UserStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/UserStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/resp/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-utils/src/main/java/io/binghe/shop/utils/resp/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,42 +54,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workplace/project/shop-springcloud-alibaba/shop-gateway&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15078124&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f29910763c9bf2bda06e4fcba05e7cc6&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/workplace/project/shop-springcloud-alibaba/shop-gateway/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15078124",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "spring.configuration.checksum": "f29910763c9bf2bda06e4fcba05e7cc6"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\project\shop-springcloud-alibaba\shop-gateway\src\main\resources" />
       <recent name="D:\workplace\project\shop-springcloud-alibaba\shop-gateway" />
       <recent name="D:\workplace\project\shop-springcloud-alibaba" />
-      <recent name="D:\workplace\project\shop-springcloud-alibaba\shop-gateway\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workplace\project\shop-springcloud-alibaba\shop-utils\src\main" />
@@ -238,10 +195,10 @@
     <list>
       <item itemvalue="Spring Boot.UserStarter2" />
       <item itemvalue="Spring Boot.ProductStarter" />
-      <item itemvalue="Spring Boot.UserStarter" />
       <item itemvalue="Spring Boot.GatewayStarter" />
-      <item itemvalue="Spring Boot.ProductStarter2" />
       <item itemvalue="Spring Boot.OrderStarter" />
+      <item itemvalue="Spring Boot.ProductStarter2" />
+      <item itemvalue="Spring Boot.UserStarter" />
     </list>
     <recent_temporary>
       <list>
@@ -270,7 +227,7 @@
       <workItem from="1674449070226" duration="33817000" />
       <workItem from="1674702455244" duration="6548000" />
       <workItem from="1674729334726" duration="4422000" />
-      <workItem from="1674741125417" duration="9479000" />
+      <workItem from="1674741125417" duration="13104000" />
     </task>
     <task id="LOCAL-00001" summary="搭建三大微服务完成交互式开发与测试">
       <created>1674443415896</created>
@@ -279,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674443415896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SpringCloud Gateway核心技术">
+      <created>1674787018557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674787018557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +262,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="搭建三大微服务完成交互式开发与测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建三大微服务完成交互式开发与测试" />
+    <MESSAGE value="SpringCloud Gateway核心技术" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud Gateway核心技术" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-user/src/main/java/io/binghe/shop/user/config/ThreadPoolTaskExecutorConfig.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
