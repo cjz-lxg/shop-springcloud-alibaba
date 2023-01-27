@@ -22,8 +22,8 @@ import org.springframework.web.client.RestTemplate;
 import java.math.BigDecimal;
 
 
-@Service
-public class OrderServiceImpl implements OrderService {
+
+public class OrderServiceV1Impl implements OrderService {
 
     Logger log = LoggerFactory.getLogger(OrderController.class);
 
@@ -42,6 +42,7 @@ public class OrderServiceImpl implements OrderService {
         if (orderParams.isEmpty()){
             throw new RuntimeException("参数异常: " + JSONObject.toJSONString(orderParams));
         }
+
 
         User user = restTemplate.getForObject("http://localhost:8060/user/get/" + orderParams.getUserId(), User.class);
         if (user == null){
@@ -71,7 +72,7 @@ public class OrderServiceImpl implements OrderService {
         orderItem.setProPrice(product.getProPrice());
         orderItemMapper.insert(orderItem);
 
-        Result<Integer> result = restTemplate.getForObject("http://localhost:8070/product/update_count/" + orderParams.getProductId() + "/" + orderParams.getCount(), Result.class);
+        Result<Integer> result = restTemplate.getForObject("http:///product/update_count/" + orderParams.getProductId() + "/" + orderParams.getCount(), Result.class);
         if (result.getCode() != HttpCode.SUCCESS){
             throw new RuntimeException("库存扣减失败");
         }

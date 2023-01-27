@@ -6,7 +6,6 @@ import io.binghe.shop.bean.Product;
 import io.binghe.shop.product.service.ProductService;
 import io.binghe.shop.utils.constants.HttpCode;
 import io.binghe.shop.utils.resp.Result;
-import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-@Slf4j
 @RestController
 public class ProductController {
 

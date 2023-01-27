@@ -3,6 +3,14 @@ server:
   servlet:
     context-path: /product
 spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 9998   #指定和Sentinel控制台交互的端口，任意指定一个未使用的端口即可
+        dashboard: 127.0.0.1:8888  #Sentinel控制台服务地址
   application:
     name: server-product
   datasource:
